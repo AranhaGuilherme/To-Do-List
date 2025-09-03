@@ -1,0 +1,70 @@
+body {
+    font-family: "Poppings", sans-serif ;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.4);
+    min-width: 400px;
+}
+
+.input-area {
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 10px;
+}
+
+#tarefa-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #c4bcbc59;
+    border-radius: 4px;
+}
+
+#adicionar-btn {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#adicionar-btn:hover {
+    background-color: #004f86;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.remover-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
